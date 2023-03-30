@@ -1,0 +1,42 @@
+#diamond {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  #green-rectangle {
+    width: 200px;
+    height: 400px;
+    background-color: green;
+    position: absolute;
+    top: 50%;
+    left: 500px;
+    transform: translate(-50%, -50%) rotateX(0) rotateY(0) rotateZ(0);
+    transition: all 1s ease;
+  }
+  
+  #circle {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    touch-action: none;
+  }
+  
+  #congrats {
+    text-align: left;
+    top: 0;
+    left: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    display: none;
+  }
